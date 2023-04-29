@@ -1,0 +1,42 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color:#607d8b;
+    text-align:center;
+  }
+
+.jumbotron {
+    background-color:#FAEDCD;
+  }
+
+.w-10 {
+    width: 10%;
+  }
+
+p {
+    font-size:1.25rem;
+  }
+  
+.btn-custom {
+    font-size:1.25rem;
+    color:#607d8b;
+    background-color:#FAEDCD;
+    border:none;
+  }
+
+.card {
+    border:1px solid rgba(0, 0, 0, 0.125);
+}
+.card-title{
+    background-color:#FAEDCD;
+}
+  
+a, a:hover {
+    text-decoration:none;
+    color:#607d8b;
+    cursor:pointer;
+  }
+
+footer {
+    background-color:#f8f9fa;
+  }

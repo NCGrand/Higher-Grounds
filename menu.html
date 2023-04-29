@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="jumbotron jumbotron-fluid m-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <a href="#"><img src="img/logo.png" alt="Logo" class="w-10 h-auto" /></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <a href="#"><h1 class="display-6">Higher Grounds Café</h1></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hgNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="hgNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <div id="menu-accordion">
+
+                        <div class="card">
+                            <h3 class="card-header">
+                                <a data-toggle="collapse" data-target="#drink-menu"><i class="fa fa-coffee"></i> Drink Menu</a>
+                            </h3>
+                            <div id="drink-menu" class="collapse show card-body" data-parent="#menu-accordion">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drinks</h3>
+                                            <ul class="list-unstyled">
+                                                <li>Latte</li>
+                                                <li>Mocha</li>
+                                                <li>Cappucino</li>
+                                                <li>Cold Brew</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Sizes &amp; Prices</h3>
+                                            <ul class="list-unstyled">
+                                                <li>8 oz - $4.75</li>
+                                                <li>12 oz - $5.25</li>
+                                                <li>16 oz - $5.75</li>
+                                                <li>20 oz - $6.25</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Syrups</h3>
+                                            <table>
+                                                <tr>
+                                                    <td>Vanilla</td>
+                                                    <td>Caramel</td>
+                                                    <td>Chocolate</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>French Vanilla</td>
+                                                    <td>Salted Caramel</td>
+                                                    <td>Brown Sugar</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Lavender</td>
+                                                    <td>Raspberry</td>
+                                                    <td>Hazelnut</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>White Chocolate</td>
+                                                    <td>English Toffee</td>
+                                                    <td>Almond</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3 class="card-header">
+                                <a data-toggle="collapse" data-target="#food-menu"><i class="fa fa-cutlery"></i> Food Menu</a>
+                            </h3>
+                            <div id="food-menu" class="collapse card-body" data-parent="#menu-accordion">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 1</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 2</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 3</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 4</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3 class="card-header">
+                                <a data-toggle="collapse" data-target="#barista-favorites"><i class="fa fa-heart"></i> Barista Favorites</a>
+                            </h3>
+                            <div id="barista-favorites" class="collapse card-body" data-parent="#menu-accordion">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 1</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 2</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 3</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 4</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3 class="card-header">
+                                <a data-toggle="collapse" data-target="#seasonal-menu"><i class="fa fa-star"></i> Seasonal Menu</a>
+                            </h3>
+                            <div id="seasonal-menu" class="collapse card-body" data-parent="#menu-accordion">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 1</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 2</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 3</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="card my-3">
+                                            <h3 class="card-title">Drink 4</h3>
+                                            <p class="card-text">Lorem Ipsum Shit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container pt-3">
+                <div class="row">
+                    <div class="col-3">
+                        <ul class="list-unstyled text-left">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3 order-md-3">
+                        <a role="button" href="tel:+3032710998"><i class="fa fa-phone"></i> 1-303-271-0998</a><br>
+                        <a role="button" href="https://www.google.com/maps/place/Higher+Grounds+Cafe/@39.7535106,-105.2221243,17z/data=!3m1!4b1!4m6!3m5!1s0x876b9ad349328fb3:0x7f1da50110bccbfd!8m2!3d39.7535106!4d-105.2199356!16s%2Fg%2F1tdps4cy">
+                            <i class="fa fa-location-arrow"></i> 803 14th St<br>Golden, CO 80401
+                        </a>
+                    </div>
+                    <div class="col-3 col-md-6">
+                        <h6>Social</h6>
+                        <a class="btn btn-social-icon btn-instagram mb-2" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook mb-2" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter mb-2" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google mb-2" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    </body>
+    
+</html>
+  
